@@ -1,0 +1,533 @@
+/* ========== Google Font Family  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/*   
+    font-family: "Merriweather", serif;
+  
+  font-family: "Roboto", sans-serif;
+    */
+/* ====== Common Css */
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.blue_color{
+    color: #0d6efd;
+}
+
+/* ===== Nabvar Area Css  */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.nav-link{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #ffffff00;
+    margin-left: 5px;
+}
+
+.nav-link:hover{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #ffffff;
+}
+.nav-link.active{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: #FFFFFF;
+    border-bottom: 2px solid #ffffff;
+}
+.nav-link.nav2{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: #000000;
+    border-bottom: 2px solid #ffffff00;
+    margin-left: 5px;
+}
+.nav-link.nav2:hover{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: #999B85;
+    border-bottom: 2px solid #999B85;
+    margin-left: 5px;
+}
+.nav-link.nav2.active{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: #999B85;
+    border-bottom: 2px solid #999B85;
+    margin-left: 5px;
+}
+/* ====== Banner Area Css  */
+#banner_area{
+    height: 100vh;
+    position: relative;
+}
+.banner_text{
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    transform: translateY(-50%);
+}
+.banner_text h1{
+    font-family: Inter;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 56.88px;
+    margin-bottom: 27px;
+    color: #000000;
+}
+.banner_text p{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.26px;  
+    color: #606060;  
+    margin-bottom: 40px;
+}
+.banner_text a{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    color: #3B5F65; 
+    padding: 18px 26px;
+    text-decoration: none;
+    border: 1px solid #3B5F65;
+    border-radius: 5px;
+    transition: all .3s linear;
+}
+.banner_text a:hover{
+    color: #999B85; 
+    border: 1px solid #999B85;
+}
+.banner_text a.banner_a_two{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    color: #999B85; 
+    padding: 18px 20px;
+    text-decoration: none;
+    border: 1px solid #999B85;
+    border-radius: 5px;
+    margin-left: 26px;
+    transition: all .3s linear;
+}
+.banner_text a.banner_a_two:hover{
+    color: #3B5F65; 
+    border: 1px solid #3B5F65;
+}
+.banner_text a img{
+    margin-left: 5px;
+}
+.banner_img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15%;
+    z-index: 999;
+}
+.banner_card{
+    background-color: #ffffff;
+    width: 120px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.banner_card{
+    position: absolute;
+    right: -50px;
+    top: 60%;
+}
+.banner_card p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    color: #000000;
+}
+.banner_card a{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #CFCFCF;
+    padding: 5px 10px;
+}
+.coner_img img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+}
+
+/* ======== Latest Orders Area Css  */
+#latest_orders_area{
+    padding-bottom: 78px;
+}
+.section_title h3{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.orders_img{
+    padding: 10px;
+}
+.orders_img img{
+    width: 100% !important;
+}
+.first_items{
+    bottom: 20px;
+    right: 20px;
+    position: absolute;
+    background-color: #ffffff;
+    width: 120px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.first_items p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    color: #000000;
+}
+.first_items a{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #CFCFCF;
+    padding: 5px 10px;
+}
+.first_last{
+    bottom: 50px;
+    right: 20px;
+    position: absolute;
+}
+/* ======== */
+.behind_title h3{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    color: #000000;
+    margin-bottom: 29px;
+}
+.behind_title p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #545454;
+    margin-bottom: 29px;
+}
+
+/* ========  */
+.video_background{
+    position: relative;
+}
+.video_background .over_lay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #00000097;
+    top: 0;left: 0;
+}
+#behind_area i {
+	background-color: #BEAE9A;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	border-radius: 100px;
+	text-align: center;
+	padding-top: 25px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding-left: 10px;
+    cursor: pointer;
+}
+.video_background p{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    color: #ffffff;
+    padding: 20px 51px;
+    background-color: #777777;
+    border-top-right-radius: 20px;
+    width: 40%;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+}
+.jjj{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    color: #ffffff;
+    padding: 20px 10px;
+    background-color: #777777;
+    border-top-right-radius: 20px;
+    width: 90%;
+    position: absolute;
+    left: 10px;
+    bottom: -6px;
+}
+
+/* ===  */
+#footer_area{
+    margin-top: 86px;
+}
+/* 
+==============
+=== check page css  */
+#page_title{
+    background-color: #BEAE9A;
+    padding: 37px 0px;
+    margin-top: 100px;
+}
+#page_title h3{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.47px;
+    color: #ffffff;
+}
+#page_title p{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    color: #ffffff;
+}
+/* ======= */
+.card_select{
+padding: 10px;
+position: relative;
+cursor: pointer;
+}
+.card_select h3{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    color: #000000;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.card_select p{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 13.31px;
+    color: #000000;
+    text-align: center;
+    padding: 0x 5px;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #00000087;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.overlay i {
+	background-color: #36C54D;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 100px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	height: 40px;
+	width: 40px;
+	transform: translate(-50%, -50%);
+	padding-left: 12px;
+	padding-top: 11px;
+}
+.card_select.active .overlay {
+    display: flex;
+}
+.select_part_one{
+    margin-top: 78px;
+}
+.select_part_one span{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    background-color: #BEAE9A;
+    color: #ffffff;
+    padding: 5px;
+    height: 37px;
+    width: 37px;
+    text-align:center;
+    border-radius: 100px;
+    margin-right: 16px;
+}
+.select_part_one p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #000000;
+    margin-top: 6px;
+}
+.img_select_one{
+    margin-top: 50px;
+}
+.select_color.active .overlay {
+    display: flex;
+}
+.mt50{
+    margin-top: 50px;
+}
+.select_color {
+    cursor: pointer;
+}
+.select_color img{
+    width: 100%;
+}
+.last_form{
+    margin-top: 43px;
+}
+.boxh {
+	width: 50%;
+	padding: 0%;
+}
+.boxh label{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.boxh input{
+    border: 1px solid #BEAE9A;
+    height: 50px;
+    border-radius: 10px;
+}
+.boxh span {
+	background-color: #BEAE9A;
+	padding: 0px 18px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.73px;
+    color: #ffffff;
+}
+.form-control:focus {
+	color: #212529;
+	background-color: #fff;
+	border-color: #86b7fe;
+	outline: 0;
+	box-shadow: 0 0 0 0 rgba(13,110,253,.25);
+}
+.pay_card_btn {
+	border: 1px solid #BEAE9A;
+	border-radius: 10px;
+	padding: 10px 5px;
+	/* height: 100px; */
+}
+.pay_card_btn p{
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    color: #BEAE9A;
+}
+.pay_card_btn button{
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20.57px;
+    background-color: #BEAE9A;
+    color: #FFFFFF;
+    height: 62px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.card_amar img {
+	width: 24px;
+	/* padding-left: 10px; */
+	margin-left: 10px;
+}
+.card_amar p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    color: #000000;
+    padding:10px 20px;
+}
+.card_amar{
+    border: 1px solid #BEAE9A;
+    width: 90%;
+    cursor: pointer;
+}
+.secend_select_card{
+    border: 1px solid #BEAE9A;
+    padding: 3px;
+    border-radius: 10px;
+}
+.card_amar .fa-check-circle-o {
+    display: none; /* Initially hide the check icon */
+}
+.card_amar.active .fa-check-circle-o {
+	display: inline-block;
+	color: #36C54D;
+	margin-top: 15%;
+	/* margin-right: 0px; */
+}
+.card_amar.active {
+    border-color: #36C54D; /* Change border color when active */
+}
+.rb_border{
+    border-radius: 0px 10px 10px 0px;
+}
+.last_o_select{
+    margin-top: 36px;
+}
+.pay_card{
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.card_select  img{
+    width: 100%;
+}

@@ -1,0 +1,266 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 300px) and (max-width: 575.98px) { 
+    #page_title h3 {
+        font-family: Inter;
+        font-size: 21px;
+    }
+    #page_title p {
+        font-family: Inter;
+        font-size: 17px;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+    .card_amar.active .fa-check-circle-o {
+        display: inline-block;
+        color: #36C54D;
+        margin-top: 5%;
+        /* margin-right: 0px; */
+    }
+    .card_amar {
+        border: 1px solid #BEAE9A;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 10px !important;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+    .nav-link.active {
+        color: #000;
+        border-bottom: 2px solid #000;
+    }
+    .nav-link {
+        color: #000000;
+    }
+    .nav-link:hover {
+        color: #302f2f;
+    }
+    #banner_area {
+        height: 720px !important;
+    }
+    #banner_area {
+        height: 720px !important;
+    }
+    .banner_img {
+        display: none;
+    }
+    .banner_text {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+        position: relative;
+        z-index: 99;
+    }
+    .banner_text a {
+        padding: 18px 10px;
+    }
+    .banner_text h1 {
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 56.88px;
+        margin-bottom: 27px;
+        color: #000000;
+        margin-top: 85px;
+    }
+    #footer_area img{
+        width: 100% !important;
+    }
+    .video_background p {
+        padding: 20px 10px;
+        width: 95%;
+        font-size: 12px;
+    }
+    .jjj {
+        font-size: 12px;
+    }
+    .orders_img img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .banner_text .d-flex {
+        flex-direction: column; /* Change direction to column on smaller screens */
+        align-items: flex-start; /* Align items to start of container */
+    }
+    .banner_text .d-flex a {
+        margin-bottom: 10px; /* Add some space between links on smaller screens */
+    }
+    .banner_text a.banner_a_two {
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.05px;
+        color: #999B85;
+        padding: 18px 20px;
+        text-decoration: none;
+        border: 1px solid #999B85;
+        border-radius: 5px;
+        margin-left: 0px;
+        transition: all .3s linear;
+    }
+    .my_wrap {
+        flex-wrap: wrap !important;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .card_amar.active .fa-check-circle-o {
+        display: inline-block;
+        color: #36C54D;
+        margin-top: 5%;
+        /* margin-right: 0px; */
+    }
+    .orders_img img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .card_amar {
+        border: 1px solid #BEAE9A;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 10px !important;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+    .nav-link.active {
+        color: #000;
+        border-bottom: 2px solid #000;
+    }
+    .nav-link {
+        color: #000000;
+    }
+    .nav-link:hover {
+        color: #302f2f;
+    }
+    #banner_area {
+        height: 720px !important;
+    }
+    .banner_img {
+        display: none;
+    }
+    .banner_text {
+        position: absolute;
+        top: 50%;
+        width: 87%;
+        transform: translateY(-50%);
+    }
+    #footer_area img{
+        width: 100% !important;
+    }
+    .video_background p {
+        padding: 20px 10px;
+        width: 77%;
+    }
+    .banner_text .d-flex {
+        flex-direction: column; /* Change direction to column on smaller screens */
+        align-items: flex-start; /* Align items to start of container */
+    }
+    .banner_text .d-flex a {
+        margin-bottom: 10px; /* Add some space between links on smaller screens */
+    }
+    .banner_text a.banner_a_two {
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.05px;
+        color: #999B85;
+        padding: 18px 20px;
+        text-decoration: none;
+        border: 1px solid #999B85;
+        border-radius: 5px;
+        margin-left: 0px;
+        transition: all .3s linear;
+    }
+    .my_wrap {
+        flex-wrap: wrap !important;
+    }
+    .my_wrap {
+        flex-wrap: wrap !important;
+    }
+  
+   
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .card_amar.active .fa-check-circle-o {
+        display: inline-block;
+        color: #36C54D;
+        margin-top: 5%;
+        /* margin-right: 0px; */
+    }
+    .orders_img img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .card_amar {
+        border: 1px solid #BEAE9A;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 10px !important;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        background: #ffffff;
+        padding: 20px;
+        text-align: center;
+    }
+    #banner_area {
+        height: 720px !important;
+    }
+    .banner_img {
+        display: none;
+    }
+    .banner_text {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+    .nav-link.active {
+        color: #000;
+        border-bottom: 2px solid #000;
+    }
+    .nav-link {
+        color: #000000;
+    }
+    .nav-link:hover {
+        color: #302f2f;
+    }
+    #footer_area img{
+        width: 100% !important;
+    }
+    .my_wrap {
+        flex-wrap: wrap !important;
+    }
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .banner_text a {
+        padding: 18px 5px;
+    }
+
+ }
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+
